@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{A7660270-7F4B-4CFF-9C14-8DE3C3D691C9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SalesWebMvc2/Models/Department.cs">
+    <Files>
+      <File FileName="SalesWebMvc2/Data/SalesWebMvcContext.cs" Line="20" Column="6" />
+      <File FileName="SalesWebMvc2/Migrations/SalesWebMvcContextModelSnapshot.cs" />
+      <File FileName="SalesWebMvc2/Models/Department.cs" Line="20" Column="25" />
+      <File FileName="SalesWebMvc2/Models/Seller.cs" />
+      <File FileName="SalesWebMvc2/Models/SalesRecord.cs" />
+      <File FileName="SalesWebMvc2/Models/Enuns/SalesStatus.cs" />
+      <File FileName="SalesWebMvc2/Data/SeedingService.cs" Line="25" Column="48" />
+      <File FileName="SalesWebMvc2/Startup.cs" Line="35" Column="50" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SalesWebMvc2" expanded="True">
+            <Node name="SalesWebMvc2" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Enuns" expanded="True" />
+                <Node name="Department.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Departments" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SalesWebMvc2 PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
