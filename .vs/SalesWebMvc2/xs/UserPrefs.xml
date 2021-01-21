@@ -1,17 +1,16 @@
 ﻿<Properties StartupConfiguration="{A7660270-7F4B-4CFF-9C14-8DE3C3D691C9}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="SalesWebMvc2/Views/Sellers/Index.cshtml">
     <Files>
-      <File FileName="SalesWebMvc2/Data/SalesWebMvcContext.cs" Line="20" Column="6" />
-      <File FileName="SalesWebMvc2/Migrations/SalesWebMvcContextModelSnapshot.cs" />
       <File FileName="SalesWebMvc2/Models/Department.cs" Line="20" Column="25" />
       <File FileName="SalesWebMvc2/Models/Seller.cs" Line="44" Column="97" />
-      <File FileName="SalesWebMvc2/Models/SalesRecord.cs" Line="18" Column="95" />
-      <File FileName="SalesWebMvc2/Models/Enuns/SalesStatus.cs" Line="2" Column="1" />
+      <File FileName="SalesWebMvc2/Models/SalesRecord.cs" />
+      <File FileName="SalesWebMvc2/Models/Enuns/SalesStatus.cs" />
       <File FileName="SalesWebMvc2/Data/SeedingService.cs" Line="25" Column="1" />
-      <File FileName="SalesWebMvc2/Startup.cs" Line="44" Column="39" />
+      <File FileName="SalesWebMvc2/Startup.cs" Line="37" Column="45" />
       <File FileName="SalesWebMvc2/Views/Shared/_Layout.cshtml" Line="24" Column="122" />
-      <File FileName="SalesWebMvc2/Controllers/SellersController.cs" Line="15" Column="10" />
-      <File FileName="SalesWebMvc2/Views/Sellers/Index.cshtml" Line="1" Column="1" />
+      <File FileName="SalesWebMvc2/Controllers/SellersController.cs" Line="25" Column="49" />
+      <File FileName="SalesWebMvc2/Views/Sellers/Index.cshtml" Line="29" Column="18" />
+      <File FileName="SalesWebMvc2/Services/SellerService.cs" Line="23" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,13 +20,15 @@
               <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
               <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Enuns" expanded="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Departments" expanded="True" />
+                <Node name="Home" expanded="True" />
                 <Node name="Sellers" expanded="True">
                   <Node name="Index.cshtml" selected="True" />
                 </Node>
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>

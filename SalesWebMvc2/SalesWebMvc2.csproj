@@ -10,6 +10,7 @@
     <Folder Include="Models\ViewModels\" />
     <Folder Include="Models\Enuns\" />
     <Folder Include="Views\Sellers\" />
+    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Models\ErrorViewModel.cs" />

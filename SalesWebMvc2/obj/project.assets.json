@@ -8922,7 +8922,7 @@
       "outputPath": "/Users/silviocressoni/Documents/Studies/DEV/C#/Projects/SalesWebMvc2/SalesWebMvc2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/silviocressoni/.nuget/NuGet/NuGet.Config"
+        "/Users/silviocressoni/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
