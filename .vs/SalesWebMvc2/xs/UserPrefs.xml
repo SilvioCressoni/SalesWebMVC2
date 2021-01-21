@@ -7,13 +7,12 @@
       <File FileName="SalesWebMvc2/Models/Enuns/SalesStatus.cs" />
       <File FileName="SalesWebMvc2/Data/SeedingService.cs" Line="25" Column="1" />
       <File FileName="SalesWebMvc2/Startup.cs" Line="37" Column="45" />
-      <File FileName="SalesWebMvc2/Controllers/SellersController.cs" Line="32" Column="27" />
+      <File FileName="SalesWebMvc2/Controllers/SellersController.cs" Line="37" Column="34" />
       <File FileName="SalesWebMvc2/Views/Sellers/Index.cshtml" Line="11" Column="61" />
-      <File FileName="SalesWebMvc2/Services/SellerService.cs" Line="21" Column="6" />
+      <File FileName="SalesWebMvc2/Services/SellerService.cs" Line="25" Column="36" />
       <File FileName="SalesWebMvc2/Data/SalesWebMvcContext.cs" Line="1" Column="1" />
       <File FileName="SalesWebMvc2/Views/Shared/_Layout.cshtml" Line="19" Column="91" />
-      <File FileName="SalesWebMvc2/wwwroot/css/site.css" Line="8" Column="2" />
-      <File FileName="SalesWebMvc2/Views/Sellers/Create.cshtml" Line="9" Column="1" />
+      <File FileName="SalesWebMvc2/Views/Sellers/Create.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
