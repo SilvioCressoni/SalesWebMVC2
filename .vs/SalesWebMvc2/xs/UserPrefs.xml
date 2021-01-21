@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{A7660270-7F4B-4CFF-9C14-8DE3C3D691C9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SalesWebMvc2/Views/Sellers/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SalesWebMvc2/Views/Sellers/Create.cshtml">
     <Files>
       <File FileName="SalesWebMvc2/Models/Department.cs" Line="20" Column="25" />
       <File FileName="SalesWebMvc2/Models/Seller.cs" Line="44" Column="97" />
@@ -7,10 +7,13 @@
       <File FileName="SalesWebMvc2/Models/Enuns/SalesStatus.cs" />
       <File FileName="SalesWebMvc2/Data/SeedingService.cs" Line="25" Column="1" />
       <File FileName="SalesWebMvc2/Startup.cs" Line="37" Column="45" />
-      <File FileName="SalesWebMvc2/Views/Shared/_Layout.cshtml" Line="24" Column="122" />
-      <File FileName="SalesWebMvc2/Controllers/SellersController.cs" Line="25" Column="49" />
-      <File FileName="SalesWebMvc2/Views/Sellers/Index.cshtml" Line="29" Column="18" />
-      <File FileName="SalesWebMvc2/Services/SellerService.cs" Line="23" Column="1" />
+      <File FileName="SalesWebMvc2/Controllers/SellersController.cs" Line="32" Column="27" />
+      <File FileName="SalesWebMvc2/Views/Sellers/Index.cshtml" Line="11" Column="61" />
+      <File FileName="SalesWebMvc2/Services/SellerService.cs" Line="21" Column="6" />
+      <File FileName="SalesWebMvc2/Data/SalesWebMvcContext.cs" Line="1" Column="1" />
+      <File FileName="SalesWebMvc2/Views/Shared/_Layout.cshtml" Line="19" Column="91" />
+      <File FileName="SalesWebMvc2/wwwroot/css/site.css" Line="8" Column="2" />
+      <File FileName="SalesWebMvc2/Views/Sellers/Create.cshtml" Line="9" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,9 +29,12 @@
                 <Node name="Departments" expanded="True" />
                 <Node name="Home" expanded="True" />
                 <Node name="Sellers" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
+                  <Node name="Create.cshtml" selected="True" />
                 </Node>
                 <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
               </Node>
             </Node>
           </Node>
