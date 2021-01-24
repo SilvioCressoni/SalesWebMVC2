@@ -178,3 +178,4 @@
 /Users/silviocressoni/Documents/Studies/DEV/C#/Projects/SalesWebMvc2/SalesWebMvc2/obj/Debug/netcoreapp3.1/Razor/Views/Departments/Index.cshtml.g.cs
 /Users/silviocressoni/Documents/Studies/DEV/C#/Projects/SalesWebMvc2/SalesWebMvc2/obj/Debug/netcoreapp3.1/Razor/Views/Sellers/Index.cshtml.g.cs
 /Users/silviocressoni/Documents/Studies/DEV/C#/Projects/SalesWebMvc2/SalesWebMvc2/obj/Debug/netcoreapp3.1/Razor/Views/Sellers/Create.cshtml.g.cs
+/Users/silviocressoni/Documents/Studies/DEV/C#/Projects/SalesWebMvc2/SalesWebMvc2/obj/Debug/netcoreapp3.1/Razor/Views/Sellers/Delete.cshtml.g.cs

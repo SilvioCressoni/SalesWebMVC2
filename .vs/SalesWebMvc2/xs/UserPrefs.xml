@@ -1,18 +1,20 @@
 ﻿<Properties StartupConfiguration="{A7660270-7F4B-4CFF-9C14-8DE3C3D691C9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SalesWebMvc2/Models/Seller.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SalesWebMvc2/Views/Sellers/Delete.cshtml">
     <Files>
       <File FileName="SalesWebMvc2/Models/Department.cs" Line="20" Column="25" />
       <File FileName="SalesWebMvc2/Startup.cs" Line="38" Column="53" />
-      <File FileName="SalesWebMvc2/Controllers/SellersController.cs" Line="38" Column="34" />
-      <File FileName="SalesWebMvc2/Views/Sellers/Index.cshtml" />
-      <File FileName="SalesWebMvc2/Services/SellerService.cs" Line="25" Column="36" />
+      <File FileName="SalesWebMvc2/Controllers/SellersController.cs" Line="51" Column="10" />
+      <File FileName="SalesWebMvc2/Views/Sellers/Index.cshtml" Line="11" Column="61" />
+      <File FileName="SalesWebMvc2/Services/SellerService.cs" Line="37" Column="36" />
       <File FileName="SalesWebMvc2/Data/SalesWebMvcContext.cs" />
       <File FileName="SalesWebMvc2/Views/Shared/_Layout.cshtml" />
-      <File FileName="SalesWebMvc2/Views/Sellers/Create.cshtml" Line="36" Column="138" />
+      <File FileName="SalesWebMvc2/Views/Sellers/Create.cshtml" Line="13" Column="7" />
       <File FileName="SalesWebMvc2/Services/DepartmentService.cs" Line="20" Column="70" />
       <File FileName="SalesWebMvc2/Models/ViewModels/SellerFormViewModel.cs" Line="15" Column="1" />
       <File FileName="SalesWebMvc2/Controllers/DepartmentsController.cs" Line="16" Column="7" />
       <File FileName="SalesWebMvc2/Models/Seller.cs" Line="1" Column="1" />
+      <File FileName="SalesWebMvc2/Models/SalesRecord.cs" Line="1" Column="1" />
+      <File FileName="SalesWebMvc2/Views/Sellers/Delete.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,13 +26,14 @@
               <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True">
                 <Node name="ViewModels" expanded="True" />
-                <Node name="Seller.cs" selected="True" />
               </Node>
               <Node name="Services" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Departments" expanded="True" />
                 <Node name="Home" expanded="True" />
-                <Node name="Sellers" expanded="True" />
+                <Node name="Sellers" expanded="True">
+                  <Node name="Delete.cshtml" selected="True" />
+                </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
