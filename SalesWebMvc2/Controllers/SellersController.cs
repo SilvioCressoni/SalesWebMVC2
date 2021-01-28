@@ -7,7 +7,6 @@ using SalesWebMvc2.Models;
 using SalesWebMvc2.Models.ViewModels;
 using SalesWebMvc2.Services;
 
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace SalesWebMvc2.Controllers
 {
@@ -71,5 +70,25 @@ namespace SalesWebMvc2.Controllers
             _sellerService.Remove(id);
             return RedirectToAction(nameof(Index));
         }
+
+
+        public IActionResult Details(int? id)
+        {
+
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var obj = _sellerService.FindById(id.Value);
+            if (obj == null)
+            {
+                return NotFound();
+            }
+
+            return View(obj);
+
+        }
+
     }
 }
