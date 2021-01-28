@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using SalesWebMvc2.Models;
+using SalesWebMvc2.Services.Exceptions;
 using Microsoft.EntityFrameworkCore;
 
 namespace SalesWebMvc2.Services
@@ -37,6 +38,25 @@ namespace SalesWebMvc2.Services
             _context.Seller.Remove(obj);
             _context.SaveChanges();
 
+        }
+
+        public void Update(Seller obj)
+        {
+            // searching if there is some existing register
+            if (!_context.Seller.Any(x => x.Id == obj.Id))
+            {
+                throw new NotFoundException("Id not Found");
+            }
+
+            try
+            {
+                _context.Update(obj);
+                _context.SaveChanges();
+            }
+            catch (DbUpdateConcurrencyException e)
+            {
+                throw new DbConcurrencyException(e.Message);
+            }
         }
     }
 }

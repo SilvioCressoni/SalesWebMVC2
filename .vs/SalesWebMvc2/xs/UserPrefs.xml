@@ -1,38 +1,42 @@
 ﻿<Properties StartupConfiguration="{A7660270-7F4B-4CFF-9C14-8DE3C3D691C9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SalesWebMvc2/Controllers/SellersController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SalesWebMvc2/Views/Sellers/Edit.cshtml">
     <Files>
       <File FileName="SalesWebMvc2/Models/Department.cs" Line="6" Column="2" />
       <File FileName="SalesWebMvc2/Startup.cs" />
-      <File FileName="SalesWebMvc2/Controllers/SellersController.cs" Line="10" Column="1" />
+      <File FileName="SalesWebMvc2/Controllers/SellersController.cs" Line="109" Column="34" />
       <File FileName="SalesWebMvc2/Views/Sellers/Index.cshtml" />
-      <File FileName="SalesWebMvc2/Services/SellerService.cs" />
+      <File FileName="SalesWebMvc2/Services/SellerService.cs" Line="28" Column="10" />
       <File FileName="SalesWebMvc2/Data/SalesWebMvcContext.cs" />
       <File FileName="SalesWebMvc2/Services/DepartmentService.cs" />
-      <File FileName="SalesWebMvc2/Models/ViewModels/SellerFormViewModel.cs" />
+      <File FileName="SalesWebMvc2/Models/ViewModels/SellerFormViewModel.cs" Line="1" Column="1" />
       <File FileName="SalesWebMvc2/Controllers/DepartmentsController.cs" />
       <File FileName="SalesWebMvc2/Models/Seller.cs" />
       <File FileName="SalesWebMvc2/Models/SalesRecord.cs" />
       <File FileName="SalesWebMvc2/Views/Sellers/Delete.cshtml" />
-      <File FileName="SalesWebMvc2/Views/Sellers/Details.cshtml" />
+      <File FileName="SalesWebMvc2/Views/Sellers/Details.cshtml" Line="35" Column="57" />
+      <File FileName="SalesWebMvc2/Views/Sellers/Edit.cshtml" Line="45" Column="7" />
+      <File FileName="SalesWebMvc2/Views/Sellers/Create.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SalesWebMvc2" expanded="True">
             <Node name="SalesWebMvc2" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="SellersController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
               <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True">
                 <Node name="ViewModels" expanded="True" />
               </Node>
-              <Node name="Services" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="Exceptions" expanded="True" />
+              </Node>
               <Node name="Views" expanded="True">
                 <Node name="Departments" expanded="True" />
                 <Node name="Home" expanded="True" />
-                <Node name="Sellers" expanded="True" />
+                <Node name="Sellers" expanded="True">
+                  <Node name="Edit.cshtml" selected="True" />
+                </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
