@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{A7660270-7F4B-4CFF-9C14-8DE3C3D691C9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SalesWebMvc2/Views/Departments/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SalesWebMvc2/Views/Sellers/Create.cshtml">
     <Files>
       <File FileName="SalesWebMvc2/Models/Department.cs" Line="6" Column="2" />
-      <File FileName="SalesWebMvc2/Startup.cs" />
+      <File FileName="SalesWebMvc2/Startup.cs" Line="1" Column="1" />
       <File FileName="SalesWebMvc2/Services/SellerService.cs" />
       <File FileName="SalesWebMvc2/Data/SalesWebMvcContext.cs" />
       <File FileName="SalesWebMvc2/Models/ViewModels/SellerFormViewModel.cs" />
-      <File FileName="SalesWebMvc2/Views/Sellers/Details.cshtml" />
-      <File FileName="SalesWebMvc2/Views/Sellers/Create.cshtml" />
+      <File FileName="SalesWebMvc2/Views/Sellers/Details.cshtml" Line="1" Column="1" />
+      <File FileName="SalesWebMvc2/Views/Sellers/Create.cshtml" Line="1" Column="1" />
       <File FileName="SalesWebMvc2/Models/ViewModels/ErrorViewModel.cs" />
       <File FileName="SalesWebMvc2/Views/Shared/Error.cshtml" />
       <File FileName="SalesWebMvc2/Controllers/SellersController.cs" />
@@ -18,7 +18,10 @@
       <File FileName="SalesWebMvc2/Services/DepartmentService.cs" />
       <File FileName="SalesWebMvc2/appsettings.json" />
       <File FileName="SalesWebMvc2/Views/Sellers/Index.cshtml" Line="1" Column="1" />
-      <File FileName="SalesWebMvc2/Views/Departments/Index.cshtml" Line="1" Column="1" />
+      <File FileName="SalesWebMvc2/Views/Departments/Index.cshtml" Line="10" Column="42" />
+      <File FileName="SalesWebMvc2/Views/Departments/Edit.cshtml" Line="7" Column="5" />
+      <File FileName="SalesWebMvc2/Views/Sellers/Edit.cshtml" Line="1" Column="1" />
+      <File FileName="SalesWebMvc2/Views/Sellers/Delete.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -39,11 +42,11 @@
                 <Node name="Exceptions" expanded="True" />
               </Node>
               <Node name="Views" expanded="True">
-                <Node name="Departments" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
+                <Node name="Departments" expanded="True" />
                 <Node name="Home" expanded="True" />
-                <Node name="Sellers" expanded="True" />
+                <Node name="Sellers" expanded="True">
+                  <Node name="Create.cshtml" selected="True" />
+                </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
