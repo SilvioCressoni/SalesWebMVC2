@@ -131,12 +131,12 @@ namespace SalesWebMvc2.Controllers
            
         }
 
-        public IActionResult Error(string error)
+        public IActionResult Error(string message)
         {
 
             var viewModel = new ErrorViewModel
             {
-                Message = error,
+                Message = message,
                 RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier
             };
 
