@@ -56,8 +56,8 @@ namespace SalesWebMvc2
                 SupportedUICultures = new List<CultureInfo> { enUs }
                 
             };
-
             app.UseRequestLocalization(localizationOptions);
+
 
             if (env.IsDevelopment())
             {

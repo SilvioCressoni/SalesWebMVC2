@@ -21,7 +21,7 @@ namespace SalesWebMvc2.Data
                 _context.Seller.Any())
             {
                 return;
-            }
+            }   
 
             Department d1 = new Department(1, "Computers");
             Department d2 = new Department(2, "Electronics");

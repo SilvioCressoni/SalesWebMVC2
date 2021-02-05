@@ -1,42 +1,22 @@
 ﻿<Properties StartupConfiguration="{A7660270-7F4B-4CFF-9C14-8DE3C3D691C9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SalesWebMvc2/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SalesWebMvc2/Controllers/SellersController.cs">
     <Files>
-      <File FileName="SalesWebMvc2/Models/Department.cs" Line="6" Column="2" />
-      <File FileName="SalesWebMvc2/Startup.cs" Line="48" Column="54" />
-      <File FileName="SalesWebMvc2/Services/SellerService.cs" />
-      <File FileName="SalesWebMvc2/Data/SalesWebMvcContext.cs" />
-      <File FileName="SalesWebMvc2/Models/ViewModels/SellerFormViewModel.cs" />
-      <File FileName="SalesWebMvc2/Views/Sellers/Details.cshtml" />
-      <File FileName="SalesWebMvc2/Views/Sellers/Create.cshtml" />
-      <File FileName="SalesWebMvc2/Models/ViewModels/ErrorViewModel.cs" Line="12" Column="1" />
-      <File FileName="SalesWebMvc2/Views/Shared/Error.cshtml" Line="1" Column="1" />
-      <File FileName="SalesWebMvc2/Controllers/SellersController.cs" Line="105" Column="80" />
-      <File FileName="SalesWebMvc2/Data/SeedingService.cs" Line="24" Column="14" />
-      <File FileName="SalesWebMvc2/Models/SalesRecord.cs" />
-      <File FileName="SalesWebMvc2/Models/Enuns/SalesStatus.cs" />
-      <File FileName="SalesWebMvc2/Models/Seller.cs" Line="14" Column="40" />
-      <File FileName="SalesWebMvc2/Services/DepartmentService.cs" />
-      <File FileName="SalesWebMvc2/appsettings.json" />
-      <File FileName="SalesWebMvc2/Views/Sellers/Index.cshtml" />
-      <File FileName="SalesWebMvc2/Views/Departments/Index.cshtml" />
-      <File FileName="SalesWebMvc2/Views/Departments/Edit.cshtml" />
-      <File FileName="SalesWebMvc2/Views/Sellers/Edit.cshtml" Line="17" Column="56" />
-      <File FileName="SalesWebMvc2/Views/Sellers/Delete.cshtml" />
-      <File FileName="SalesWebMvc2/Controllers/DepartmentsController.cs" />
-      <File FileName="SalesWebMvc2/Views/Home/Index.cshtml" />
-      <File FileName="SalesWebMvc2/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
-      <File FileName="SalesWebMvc2/Program.cs" Line="16" Column="1" />
+      <File FileName="SalesWebMvc2/Models/Seller.cs" Line="14" Column="75" />
+      <File FileName="SalesWebMvc2/Views/Sellers/Create.cshtml" Line="57" Column="2" />
+      <File FileName="SalesWebMvc2/Views/Sellers/Edit.cshtml" Line="56" Column="2" />
+      <File FileName="SalesWebMvc2/Controllers/SellersController.cs" Line="36" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SalesWebMvc2" expanded="True">
             <Node name="SalesWebMvc2" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="SellersController.cs" selected="True" />
+              </Node>
               <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True">
-                <Node name="Enuns" expanded="True" />
+                <Node name="ViewModels" expanded="True" />
               </Node>
               <Node name="Services" expanded="True">
                 <Node name="Exceptions" expanded="True" />
@@ -50,7 +30,6 @@
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
               </Node>
-              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
