@@ -21,11 +21,10 @@ namespace SalesWebMvc2.Models
                            
         [Display(Name = "Birth Date")]
         [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:dd/MM/yyy}")]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
         public DateTime BirthDate { get; set; }
 
         [Required(ErrorMessage = "{0} is required !")]
-
         [Display(Name = "Base Salary")]
         [Range(100.0, 50000.0, ErrorMessage = "{0} Must be from {1} to {2}")]
         [DisplayFormat(DataFormatString = "{0:F2}")]
